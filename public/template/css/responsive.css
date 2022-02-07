@@ -1,0 +1,297 @@
+    @media (max-width: 1024px) {
+        h1 {
+            font-size: 30px !important;
+        }
+
+        .slick-next {
+            left: 0;
+        }
+
+        .slick-prev {
+            right: 0;
+        }
+
+        #carousel-index-wrapper .carousel-item .carousel-caption {
+            transform: translate(130px, -130px);
+
+        }
+
+
+    }
+
+    @media (max-width: 769px) {
+
+        /* Sidebar Nav Starts */
+
+        #sidebarmodal {
+            z-index: 9999;
+        }
+
+        button.navbar-btn {
+            display: block;
+            position: absolute;
+            top: -63px;
+        }
+
+        #sidebarmodal button.close {
+            right: 20px;
+            top: 20px;
+            font-size: 40px;
+            color: black;
+            z-index: 10000;
+        }
+
+        #sidebarmodal #column_left ul li a span {
+            color: var(--lightblack) !important;
+        }
+
+        button.navbar-btn div {
+            display: block;
+            width: 30px;
+            height: 2px;
+            background-color: var(--lightblack);
+            margin: 6px 0;
+        }
+
+        #sidebarmodal #column_left .main-list .dropdown-toggle::after {
+            display: none;
+        }
+
+        #sidebarmodal #column_left .nav-list .main-list .collapse li>a {
+            display: block;
+            position: relative;
+        }
+
+        #sidebarmodal #column_left .nav-list .main-list .collapse li span:after {
+            content: "\f067";
+            font-family: 'FontAwesome';
+            position: absolute;
+            right: 0;
+            font-weight: 600;
+        }
+
+        #sidebarmodal #column_left .nav-list .main-list .collapse li span[aria-expanded="true"]:after {
+            content: "\f068";
+            font-family: 'FontAwesome';
+            font-weight: 600;
+        }
+
+        #sidebarmodal.left .modal-dialog {
+
+            width: auto !important;
+        }
+
+        /* Sidebar Nav Ends */
+
+        h1 {
+            font-size: 20px !important;
+        }
+
+        #carousel-index-wrapper .carousel-item .carousel-caption .header-content h1 {
+            max-height: 25px;
+            min-height: 25px;
+            overflow: hidden;
+        }
+
+
+
+        #carousel-index-wrapper .carousel-item .carousel-caption {
+            width: 75% !important;
+        }
+
+        #carousel-index-wrapper .carousel-item .carousel-caption {
+            transform: translate(-105px, -120px);
+        }
+
+        #services-wrapper .content .card-item .body img {
+            max-height: 150px;
+            min-height: 150px;
+            object-fit: contain;
+            object-position: center;
+            width: 100%;
+        }
+
+        .navbar-nav li:first-child label {
+            display: none;
+        }
+
+        /* #navigation-wrapper .navbar-nav-wrapper {
+            position: absolute;
+            background-color: white;
+            top: 0;
+            left: 0;
+        } */
+
+
+        #navigation-wrapper .navbar-collapse {
+            height: 400px;
+            overflow-y: scroll;
+
+        }
+
+        .main-header .navbar-nav li:nth-child(2), .main-header .notice {
+            display: none;
+        }
+
+        #carousel-index-wrapper .carousel-inner .carousel-item .header-content a {
+            display: none;
+        }
+
+        #carousel-index-wrapper .carousel-item .carousel-caption a {
+            display: none;
+        }
+
+        #navigation-wrapper .nav-link {
+            color: #212529 !important;
+        }
+
+        .slick-dots {
+            display: flex;
+            justify-content: center;
+        }
+
+        .slick-dots li button {
+            font-size: 0;
+        }
+
+        .slick-dots button {
+            background: #dfdfdf;
+            border: 0;
+            outline: 0;
+            display: block;
+            height: 30px;
+            width: 30px;
+            margin: 5px;
+            border-radius: 50%;
+            color: white;
+            content: '';
+        }
+
+        .slick-dots button:focus {
+            outline: 0;
+        }
+
+
+        #product-detail-slider-wrapper .carousel-gallery-wrapper #carousel-thumbs .row-content {
+            flex-direction: row;
+        }
+    }
+
+    @media (max-width: 601px) {
+        #carousel-index-wrapper .carousel-item {
+            height: auto;
+        }
+
+
+
+        #carousel-index-wrapper .carousel-item .carousel-caption {
+            transform: translate(-90px, -40px);
+        }
+
+
+
+
+        #carousel-index-wrapper .carousel-indicators {
+            display: none;
+        }
+
+        #carousel-index-wrapper .carousel-inner .carousel-item img {
+            height: 40vh;
+        }
+
+
+
+        #slider .items {
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        #slider .items .image, .items .content {
+            width: 100% !important;
+            text-align: center;
+            margin: auto;
+        }
+
+        #banner-wrapper .image img {
+            max-height: 200px;
+            min-height: 200px;
+        }
+
+        #footer-wrapper .social-media {
+            justify-content: flex-start !important;
+        }
+
+        #footer-wrapper .about .circle-dot::after {
+            display: none;
+        }
+
+        #footer-wrapper .about li {
+            margin-right: 30px;
+
+        }
+
+        #copyright-wrapper ul li::after {
+            display: none;
+        }
+
+        #copyright-wrapper ul li {
+            margin-right: 25px;
+        }
+
+
+
+
+        .slick-w4 button {
+            display: none;
+
+        }
+
+        .slick-w6 button {
+            display: none;
+
+        }
+
+        #product-info #mytab-wrapper2 #myTab2 .nav-item .nav-link {
+            padding-left: 25px;
+        }
+
+    }
+
+    @media (max-width: 426px) {
+        #searchmodal .modal-dialog .close span {
+
+            left: 150px;
+            position: absolute;
+        }
+
+        #searchmodal .modal-header {
+            padding-top: 30px;
+        }
+
+        #product-detail-slider-wrapper #carousel.gallery .carousel-item img {
+            max-height: 300px;
+            min-height: 300px;
+            object-fit: cover;
+            object-position: center;
+        }
+    }
+
+    @media (max-width: 321px) {
+        button.navbar-btn {
+
+            top: -58px;
+        }
+
+
+
+
+
+        #carousel-index-wrapper .carousel-item img {
+            max-height: 40vh;
+            min-height: 40vh;
+            max-width: 100%;
+            object-fit: cover;
+            object-position: center;
+
+        }
+    }

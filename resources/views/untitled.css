@@ -1,0 +1,20 @@
+#top-cart-product-template .top-cart-product-id .item-thumb .image img {
+	max-height: 80px;	
+	min-height: 80px;
+	object-fit: contain;
+	object-position: center;
+	width: 100%;
+
+}
+
+.dropdown-menu .shopping-cart-items{
+	overflow-y:scroll; 
+	height:350px;
+	width: 320px;
+}
+
+.dropdown-menu .shopping-cart-items .top-cart-product-id  {
+
+	border-bottom:1px solid #dddddd;
+
+}
